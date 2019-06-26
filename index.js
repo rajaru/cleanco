@@ -18,7 +18,7 @@ const suffices = suffix_sorted.reduce( (a,x)=>{a[x]=x;return a;}, {});
 class cleanco{
 
     strip(s){                                               // remove reduncant whitespaces
-        return s.trim().split(/\s+/).join(' ').replace(/[^\.\w]+/g, ' ');
+        return s.trim().split(/\s+/).join(' ').replace(/[^\.\w\/]+/g, ' ');
     }
 
     type(name){

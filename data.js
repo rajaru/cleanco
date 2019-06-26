@@ -47,7 +47,7 @@ terms_by_type : {
     'Argentina': ['s.a.', 's.r.l.', 's.c.p.a', 'scpa', 's.c.e i.', 's.e.', 's.g.r',
        'soc.col.'
     ],
-    'Australia': ['nl', 'pty. ltd.', 'pty ltd'],
+    'Australia': ['nl', 'pty. ltd.', 'pty ltd', 'pty ltd.'],
     'Austria': ['e.u.', 'stg', 'gesbr', 'a.g.', 'ag', 'og', 'kg', 'aktiengesellschaft'],
     'Belarus': ['aat', '3at'],
     'Belgium': ['esv', 'vzw', 'vof', 'snc', 'comm.v', 'scs', 'bvba', 'sprl', 'cbva',
@@ -98,7 +98,7 @@ terms_by_type : {
     'Latvia': ['as', 'sia', 'ik', 'ps', 'ks'],
     'Lebanon': ['sal'],
     'Lithuania': ['uab', 'ab', 'ij', 'mb'],
-    'Luxemborg': ['s.a.', 's.a.r.l.', 'secs'],
+    'Luxemborg': ['s.a.', 's.a.r.l.', 'secs', 'spf', 's.p.f', 's.p.f.'],
     'Macedonia': ['d.o.o.', 'd.o.o.e.l', 'k.d.a.', 'j.t.d.', 'a.d.', 'k.d.'],
     'Malaysia': ['bhd.', 'sdn. bhd.'],
     'Mexico': ['s.a.', 's. de. r.l.', 's. en c.', 's.a.b.', 's.a.p.i.'],
