@@ -37,10 +37,13 @@ class cleanco{
     }
 
     clean(name){
-        var s = this.strip(name).toLowerCase().split(' ');
+        var s = this.strip(name).toLowerCase().split(' ').filter(Boolean);
         do{
             if( this._check_at(s, s.length-3, 3) ||
+                this._check_at(s, s.length-3, 2) ||
+                this._check_at(s, s.length-3, 1) ||
                 this._check_at(s, s.length-2, 2) ||
+                this._check_at(s, s.length-2, 1) ||
                 this._check_at(s, s.length-1, 1) ||
                 this._check_at(s, 0, 2) ||
                 this._check_at(s, 0, 1) )continue;
